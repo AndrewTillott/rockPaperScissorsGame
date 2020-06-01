@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./styles.css" />
+        <title>Rock paper scissors</title>
+    </head>
+    <body>
+        <div class="score-board">
+            <div class="columned score-1">
+                <div>
+                    Player
+                </div>
+                
+                <div class="play-score">
+                    0
+                </div>
+            </div>
+            <div class="columned score-2">
+                <div>
+                    Computer
+                </div>
+                <div class="comp-score">
+                    0
+                </div>
+            </div>
+    </div>
+        <div class="winner">
+            Player Wins
+        </div>
+        
+        <div id="hands">
+            <div>
+                <img id="hand1" src="Assets/paper.png">
+            </div>
+            <div>
+                <img id="hand2" src="Assets/rock.png">
+            </div>
+        </div>
+        
+     <div class="buttons">
+            
+            <button class="btn rock">rock</button>
+          
+         
+       
+            <button class="btn paper">paper</button>
+        
+        
+        
+            <button class="btn scissors">scissors</button>
+      
+        
+     </div>
+
+   
+         <div class="score-cap">
+             
+         <form>
+             <input action="app.js" method="GET" class="input-entry" type="number"> <button type="submit" class="cap-btn">Set Score Cap Here</button>
+         </form>
+        </div>
+   
+     <button class="reset">
+         Reset
+     </button>
+            
+        <script src="app.js"></script>
+    </body>
+</html>
