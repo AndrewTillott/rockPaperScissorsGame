@@ -175,3 +175,7 @@ function animation(){
         this.style.animation = '';
     })
 }
+
+function test(){
+
+}
