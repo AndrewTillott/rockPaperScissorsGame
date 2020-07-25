@@ -1,2 +1,12 @@
 # rockPaperScissorsGame
-I created this to learn Javascript. It is a basic game, that involves some animations like a hand shaking a dice. It allows people to compete against a computer, through the classic game of rockPaperScissors
+
+I developed this application that allowed players to play the classic game of 'Rock Paper Scissors'. 
+
+The purpose of this application was to improve my ability to work with animations and Javascript Dom Manipulation. Examples of the animations include: when the button is pressed the hand will change shape, and shake (as if a person was rolling a dice). 
+
+The technologies used are: 
+
+-Javascript
+-HTML
+-CSS
+
